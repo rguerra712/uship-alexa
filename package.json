@@ -1,21 +1,22 @@
 {
-  "name": "uship-alexa",
-  "version": "0.0.0",
-  "description": "",
-  "author": "sguerra <sguerra@uship.com>",
-  "main": "functions/__main__.js",
-  "dependencies": {
-    "lib": "^3.0.1"
-  },
-  "private": true,
-  "stdlib": {
-    "build": "faaslang",
-    "name": "sguerra/uship-alexa",
-    "timeout": 10000,
-    "publish": true,
-    "personalize": {
-      "keys": [],
-      "user": []
+    "name": "uship-alexa",
+    "version": "0.0.0",
+    "description": "",
+    "author": "sguerra <sguerra@uship.com>",
+    "main": "functions/__main__.js",
+    "dependencies": {
+        "lib": "^3.0.1",
+        "rivership-functions": "^1.0.1"
+    },
+    "private": true,
+    "stdlib": {
+        "build": "faaslang",
+        "name": "sguerra/uship-alexa",
+        "timeout": 10000,
+        "publish": true,
+        "personalize": {
+            "keys": [],
+            "user": []
+        }
     }
-  }
 }
